@@ -126,6 +126,11 @@ body {
         bottom: 12%;
     }
 
+    .scelte {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #ContainerSocial .social {
         height: 40px;
         width: 40px; /* Riduzione ulteriormente le icone social */
