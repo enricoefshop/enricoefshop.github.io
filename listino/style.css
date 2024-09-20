@@ -45,7 +45,7 @@ html::-webkit-scrollbar {
 #containerListino {
     width: 40%;
     height: 180vh;
-    margin-top: 10vh;
+    margin-top: 3vh;
     background-color: white;
     border-radius: 25px;
 }
@@ -70,4 +70,23 @@ html::-webkit-scrollbar {
     flex: 1;
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    #containerListino {
+        width: 90%;
+        height: 290vh;
+        margin-top: 0;
+        background-color: white;
+        border-radius: 25px;
+    }
+
+    .scelte {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    #main {
+        height: 300vh;
+    }
 }
