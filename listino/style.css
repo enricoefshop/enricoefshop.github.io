@@ -38,14 +38,14 @@ html::-webkit-scrollbar {
 #main {
     display: flex;
     justify-content: center; 
-    align-items: center; 
-    height: 200vh;
 }
 
 #containerListino {
     width: 40%;
-    height: 180vh;
+    padding-bottom: 20px;
+    padding-top: 20px;
     margin-top: 3vh;
+    margin-bottom: 3vh;
     background-color: white;
     border-radius: 25px;
 }
@@ -75,10 +75,10 @@ html::-webkit-scrollbar {
 @media screen and (max-width: 480px) {
     #containerListino {
         width: 90%;
-        height: 290vh;
-        margin-top: 0;
-        background-color: white;
-        border-radius: 25px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
 
     .scelte {
@@ -86,7 +86,5 @@ html::-webkit-scrollbar {
         margin-right: 8px;
     }
 
-    #main {
-        height: 300vh;
-    }
+
 }
