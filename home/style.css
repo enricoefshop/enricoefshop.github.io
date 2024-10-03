@@ -51,7 +51,7 @@ body {
 
 #ContainerSocial {
     position: fixed;
-    bottom: 10%;
+    bottom: 10vh;
     width: 30%;
     display: flex;
     justify-content: space-around;
